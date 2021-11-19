@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int hieu(int a, int b);
 int tong(int a, int b){return a+b;}
 int hieu(int a, int b){return a - b;}
-int tong(int a, int b){return a * b;}
 int tich(int a, int b);
 double thuong(int a, int b);
 
@@ -17,7 +15,6 @@ int main()
 	cin >> b;
 	cout << "KQ: "<<tong(a,b);
 	cout << "KQ: "<<hieu(a,b);
-	cout << "KQ: "<<tich(a,b);
 	system("pause");
 	return 0;
 }
